@@ -1,0 +1,28 @@
+{
+  "name": "nu-u13h-ecommerce-backend",
+  "version": "2022.5.5",
+  "description": "an e-commerce backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nearcatch/nu-u13h-ecommerce-backend.git"
+  },
+  "author": "nearcatch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nearcatch/nu-u13h-ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/nearcatch/nu-u13h-ecommerce-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  }
+}
