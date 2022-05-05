@@ -75,8 +75,10 @@ https://user-images.githubusercontent.com/692914/167036045-75e2ab37-0412-4d03-81
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
-* [MySQL](https://www.mysql.com/)
+* [dotenv](https://github.com/motdotla/dotenv#readme)
 * [Sequelize](https://sequelize.org/)
+* [Node MySQL 2](https://github.com/sidorares/node-mysql2#readme)
+* [MySQL](https://www.mysql.com/)
 * [Insomnia](https://insomnia.rest/products/insomnia)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -87,7 +89,7 @@ https://user-images.githubusercontent.com/692914/167036045-75e2ab37-0412-4d03-81
 
 1. Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). (Only if cloning via command line.)
 2. Install [Node.js](https://nodejs.org/en/download/current/).
-2. Install [MySQL](https://dev.mysql.com/downloads/installer/).
+2. Install [MySQL](https://dev.mysql.com/downloads/installer/). (Or use an alternate SQL server.)
 3. Install [Insomnia](https://insomnia.rest/download).
 
 ### Installation
@@ -110,7 +112,7 @@ https://user-images.githubusercontent.com/692914/167036045-75e2ab37-0412-4d03-81
 ## Usage
 
 1. Rename the `.env.EXAMPLE` file to `.env` and add your sql server credentials.
-2. Run the commands in `schema.sql` using MySQL Shell or Workbench to create the ecommerce_db database.
+2. Run the commands in `schema.sql` using MySQL or a preferred alternative to create the ecommerce_db database.
 3. Run `npm run seed` from the root of the code repository to seed the ecommerce_db with test data.
 4. Run `npm run start` from the root of the code repository to start the API. Use Insomnia or a preferred alternative to send requests to the API and interact with the database.
 5. Run `npm run seed` again to reseed the ecommerce_db with fresh test data if necessary.
