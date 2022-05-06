@@ -115,11 +115,11 @@ This repository creates an API for accessing product info, categories, and tags 
 3. Run `npm run seed` from the root of the code repository to seed the ecommerce_db with test data.
 4. Run `npm run start` from the root of the code repository to start the API.
 
-<video src="https://user-images.githubusercontent.com/692914/167065350-9dca4b8d-4582-4cad-86de-264374674da8.mp4"></video>
+<video src="https://user-images.githubusercontent.com/692914/167065350-9dca4b8d-4582-4cad-86de-264374674da8.mp4" style="width:100%"></video>
 
 5. Use Insomnia or a preferred alternative to send requests to the API and interact with the database.
 
-<video src="https://user-images.githubusercontent.com/692914/167067954-0a8acdbc-40b4-42b3-95d0-b6953c94691c.mp4"></video>
+<video src="https://user-images.githubusercontent.com/692914/167067954-0a8acdbc-40b4-42b3-95d0-b6953c94691c.mp4" style="width:100%"></video>
 
 6. Run `npm run seed` again to reseed the ecommerce_db with fresh test data if necessary.
 
