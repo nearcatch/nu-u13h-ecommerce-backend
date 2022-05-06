@@ -73,10 +73,10 @@ This repository creates an API for accessing product info, categories, and tags 
 
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
-* [Express.js](https://expressjs.com/)
-* [dotenv](https://github.com/motdotla/dotenv#readme)
-* [Sequelize](https://sequelize.org/)
-* [Node MySQL 2](https://github.com/sidorares/node-mysql2#readme)
+  * [Express.js](https://expressjs.com/)
+  * [dotenv](https://github.com/motdotla/dotenv#readme)
+  * [Sequelize](https://sequelize.org/)
+  * [Node MySQL 2](https://github.com/sidorares/node-mysql2#readme)
 * [MySQL](https://www.mysql.com/)
 * [Insomnia](https://insomnia.rest/products/insomnia)
 
